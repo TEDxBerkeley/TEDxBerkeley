@@ -10,6 +10,13 @@ html, body, header, section, .theme {
 header, .landing {
   background-color:#551010;
 }
+h1,h2,h3 {
+  font-weight:300;
+}
+.text,.speakers,.timeline {
+  padding:5em 0;
+  text-align:center;
+}
   .logo {
     width:4em;
   }
@@ -50,15 +57,10 @@ header, .landing {
       text-decoration:none;
       background-color:#971212;
     }
-  .text {
-    padding:5em 0;
-    text-align:center;
-  }
   .title {
     font-size:2em;
     text-transform:uppercase;
-    font-weight:700;
-    border-bottom:2px dashed #000;
+    border-bottom:1px dashed #000;
     padding-bottom:0.25em;
     display:inline-block;
     float:none;
@@ -66,9 +68,10 @@ header, .landing {
   }
     .dark .title {
       color:#FFF;
-      border-bottom:2px dashed rgba(255,255,255,0.5);
+      border-bottom:1px dashed rgba(255,255,255,0.5);
     }
   .copy {
+    font-weight:300;
     width:100%;
     font-size:1.25em;
     color:#666;
@@ -78,8 +81,6 @@ header, .landing {
       color:rgba(0,0,0,0.5);
     }
   .speakers {
-    padding:5em 0;
-    text-align:center;
     background-color:#f6f6f6;
     border-top:1px solid #eee;
     border-bottom:1px solid #eee;
@@ -110,7 +111,7 @@ div.cell {
   padding:0;
 }
   .caption h3 {
-    font-weight:700;
+    font-weight:300;
     color:#FFF;
     font-size:1.25em;
   }
@@ -129,6 +130,51 @@ div.cell {
   height:25em;
 }
 /* end people */
+.events {
+  float:none;
+  display:inline-block;
+}
+.event {
+  padding:1em 0;
+  width:100%;
+}
+  .events::before {
+    content:"";
+    width:1px;
+    position:absolute;
+    top:0;
+    left:50%;
+    bottom:0;
+    background-color:#ccc;
+    z-index:10;
+  }
+  .event .time {
+    width:50%;
+    padding-right:2em;
+    text-transform:uppercase;
+    text-align:right;
+    color:#999;
+  }
+  .event .time,.event p {
+    font-size:1.2em;
+    font-weight:300;
+  }
+    .event p {
+      padding-left:2em;
+    }
+  .event::before {
+    content:"";
+    position:absolute;
+    left:50%;
+    margin-left:-0.45em;
+    height:1em;
+    width:1em;
+    margin-top:0.4em;
+    border-radius:50%;
+    border:1px solid #ccc;
+    background-color:#FFF;
+    z-index:15;
+  }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
