@@ -7,6 +7,9 @@
 html, body, header, section, .theme {
   width:100%;
 }
+span a, p a, p b, p i {
+  float:none;
+}
 header, .landing {
   background-color:#551010;
 }
@@ -23,7 +26,7 @@ h1,h2,h3 {
   header {
     padding:2em 3em;
   }
-  .landing .byline {
+  .landing .byline,footer {
     font-weight:300;
     font-size:1.1em;
     padding:2em 0;
@@ -31,12 +34,37 @@ h1,h2,h3 {
     width:100%;
     margin-top:3em;
   }
-    .byline span {
+    .byline span,footer span {
       width:100%;
       color:#FFF;
       text-align:center;
       letter-spacing:0.05em;
     }
+    footer span {
+      width:100%;
+    }
+    footer {
+      background-color:#222;
+      text-align:center;
+      padding:5em 0;
+    }
+    footer img {
+      float:none;
+      display:inline-block;
+      width:5em;
+      margin:2em 0;
+    }
+    footer .author {
+      color:#666;
+    }
+      .author a {
+        color:#999;
+        border-bottom:1px dashed #999;
+        text-decoration:none;
+      }
+      .author a:hover {
+        border-bottom:1px solid #999;
+      }
     .center {
       text-align:center;
     }
