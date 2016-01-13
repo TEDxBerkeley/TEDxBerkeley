@@ -131,6 +131,15 @@ div.cell {
 }
 .caption {
   width:100%;
+  box-sizing:border-box;
+  padding:2em;
+  min-height: 10em;
+}
+  .team .caption {
+    min-height:12em;
+  }
+div.person {
+  margin-top:2em;
 }
 .person, .person img, .caption h3, .caption span {
   display:inline-block;
@@ -142,11 +151,6 @@ div.cell {
     font-weight:300;
     color:#FFF;
     font-size:1.25em;
-  }
-  .caption {
-    box-sizing:border-box;
-    padding:2em;
-    min-height: 10em;
   }
   .caption span {
     color:#999;
