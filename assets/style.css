@@ -216,7 +216,7 @@ div.person {
     padding-top:1em;
     color:#551010;
   }
-  li + li  {
+  .faq li + li  {
     margin-top:3em;
   }
   .faq .a {
