@@ -1,26 +1,109 @@
 {
-"2016":
-  [
-    {"speaker_title":"Christopher Ategeka", "speaker_byline":"Engineer and Social Entrepreneur", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/Chris2-e1442203623576.jpg"},
-{"speaker_title":"Kathy Calvin", "speaker_byline":"CEO of United Nations Foundation", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/11/KC-Headshot-High-Resolution1.jpeg"},
-{"speaker_title":"Jacob Corn", "speaker_byline":"Scientific Director, Innovative Genomics Initiative", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/image12.jpeg"},
-{"speaker_title":"Stephanie Freid", "speaker_byline":"Journalist", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/StephanieFreid.jpg"},
-{"speaker_title":"Rob Hotchkiss", "speaker_byline":"Musician", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/RobEchoBW-16.jpg"},
-{"speaker_title":"Naveen Jain", "speaker_byline":"Entrepreneur and Philanthropist", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/11/Naveen-Jain-HiRes.jpg"},
-{"speaker_title":"Jeromy Johnson", "speaker_byline":"Expert in EMF Exposure", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/TEDx-pic-Jeromy-High-Resolution1.jpg"},
-{"speaker_title":"Reverend Deborah Johnson", "speaker_byline":"Minister, Author, and Diversity Expert", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/RevD.png"},
-{"speaker_title":"Aran Khanna", "speaker_byline":"Computer Scientist, Security Researcher", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/12/AranKhanna.png"},
-{"speaker_title":"John Koenig", "speaker_byline":"Creator, The Dictionary of Obscure Sorrows", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/TEDx-John-Koenig.jpg"},
-{"speaker_title":"Ellen Petry Leanse", "speaker_byline":"Digital Pioneer", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/TwitPic.png"},
-{"speaker_title":"Dr. Susan Lim", "speaker_byline":"Surgeon and Entrepreneur", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/susan.jpg"},
-{"speaker_title":"Oakland School for the Arts Chamber Choir", "speaker_byline":"Oakland School for the Arts", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/Chamber-Choir-Photo-14_15.jpg"},
-{"speaker_title":"Amandine Roche", "speaker_byline":"Human Rights Expert", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/AmandineRoche1.jpg"},
-{"speaker_title":"Dr. Sriram Shamasunder", "speaker_byline":"Co-Founder HEAL Initiative", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/11/DrSriramShamasunder.jpg"},
-{"speaker_title":"Dr. Andrew Siemion", "speaker_byline":"Astrophysicist", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/andrewSiemion.jpg"},
-{"speaker_title":"Joshua Toch", "speaker_byline":"Founder, Mind Before Mouth", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/tochjoshfortedxb4.jpg"},
-{"speaker_title":"UC Berkeley Azaad", "speaker_byline":"UC Berkeley Bollywood Dance Group", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/Azaad2015_2016.jpg"},
-{"speaker_title":"Sonia Rao", "speaker_byline":"Singer and Songwriter", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/Sonia-Rao.jpg"},
-{"speaker_title":"Isha Ray", "speaker_byline":"Professor, Co-Director Berkeley Water Center", "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/ray_big_give.jpg"},
-{"speaker_title":"Celli@Berkeley", "speaker_byline":"UC Berkeley Celli Performance Group", "speaker_image_uri": "http://tedxberkeley.github.io/TEDxBerkeley2016/assets/images/celli.jpeg"}
+  "2016": [
+    {
+      "speaker_title": "Christopher Ategeka",
+      "speaker_byline": "Engineer and Social Entrepreneur",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/Chris2-e1442203623576.jpg"
+    },
+    {
+      "speaker_title": "Kathy Calvin",
+      "speaker_byline": "CEO of United Nations Foundation",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/11/KC-Headshot-High-Resolution1.jpeg"
+    },
+    {
+      "speaker_title": "Jacob Corn",
+      "speaker_byline": "Scientific Director, Innovative Genomics Initiative",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/image12.jpeg"
+    },
+    {
+      "speaker_title": "Stephanie Freid",
+      "speaker_byline": "Journalist",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/StephanieFreid.jpg"
+    },
+    {
+      "speaker_title": "Rob Hotchkiss",
+      "speaker_byline": "Musician",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/RobEchoBW-16.jpg"
+    },
+    {
+      "speaker_title": "Naveen Jain",
+      "speaker_byline": "Entrepreneur and Philanthropist",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/11/Naveen-Jain-HiRes.jpg"
+    },
+    {
+      "speaker_title": "Jeromy Johnson",
+      "speaker_byline": "Expert in EMF Exposure",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/TEDx-pic-Jeromy-High-Resolution1.jpg"
+    },
+    {
+      "speaker_title": "Reverend Deborah Johnson",
+      "speaker_byline": "Minister, Author, and Diversity Expert",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/RevD.png"
+    },
+    {
+      "speaker_title": "Aran Khanna",
+      "speaker_byline": "Computer Scientist, Security Researcher",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/12/AranKhanna.png"
+    },
+    {
+      "speaker_title": "John Koenig",
+      "speaker_byline": "Creator, The Dictionary of Obscure Sorrows",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/TEDx-John-Koenig.jpg"
+    },
+    {
+      "speaker_title": "Ellen Petry Leanse",
+      "speaker_byline": "Digital Pioneer",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/TwitPic.png"
+    },
+    {
+      "speaker_title": "Dr. Susan Lim",
+      "speaker_byline": "Surgeon and Entrepreneur",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/susan.jpg"
+    },
+    {
+      "speaker_title": "Oakland School for the Arts Chamber Choir",
+      "speaker_byline": "Oakland School for the Arts",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/Chamber-Choir-Photo-14_15.jpg"
+    },
+    {
+      "speaker_title": "Amandine Roche",
+      "speaker_byline": "Human Rights Expert",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/09/AmandineRoche1.jpg"
+    },
+    {
+      "speaker_title": "Dr. Sriram Shamasunder",
+      "speaker_byline": "Co-Founder HEAL Initiative",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/11/DrSriramShamasunder.jpg"
+    },
+    {
+      "speaker_title": "Dr. Andrew Siemion",
+      "speaker_byline": "Astrophysicist",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/andrewSiemion.jpg"
+    },
+    {
+      "speaker_title": "Joshua Toch",
+      "speaker_byline": "Founder, Mind Before Mouth",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2015/10/tochjoshfortedxb4.jpg"
+    },
+    {
+      "speaker_title": "UC Berkeley Azaad",
+      "speaker_byline": "UC Berkeley Bollywood Dance Group",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/Azaad2015_2016.jpg"
+    },
+    {
+      "speaker_title": "Sonia Rao",
+      "speaker_byline": "Singer and Songwriter",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/Sonia-Rao.jpg"
+    },
+    {
+      "speaker_title": "Isha Ray",
+      "speaker_byline": "Professor, Co-Director Berkeley Water Center",
+      "speaker_image_uri": "http://tedxberkeley.org/wp-content/uploads/2016/01/ray_big_give.jpg"
+    },
+    {
+      "speaker_title": "Celli@Berkeley",
+      "speaker_byline": "UC Berkeley Celli Performance Group",
+      "speaker_image_uri": "http://tedxberkeley.github.io/TEDxBerkeley2016/assets/images/celli.jpeg"
+    }
   ]
 }
