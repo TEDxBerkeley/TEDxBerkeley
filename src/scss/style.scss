@@ -1,3 +1,47 @@
+* {
+    position:relative;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family:'Open Sans';
+}
+
+.wrap-container {
+    text-align:center;
+}
+
+.wrap {
+    width:80%;
+    float:none;
+    display:inline-block;
+}
+
+.button {
+    text-transform:uppercase;
+    font-size:0.7em;
+    letter-spacing:0.25em;
+    text-decoration:none;
+    display:inline-block;
+    padding:1.5em 3em 2em 3em;
+    color:#000;
+    border:2px solid #000;
+
+    .bracket {
+        font-size:2em;
+        margin:-0.5em 0 -0.5em 0.75em;
+    }
+}
+
+.button:hover {
+    background-color:#333;
+    color:#FFF;
+}
+
+@import 'includes/header';
+@import 'includes/footer';
 @import 'modules/banners';
 @import 'modules/mosaic';
 @import 'modules/opening';
