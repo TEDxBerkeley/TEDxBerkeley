@@ -1,3 +1,5 @@
+$tedred: rgba(230,43,30,1);
+
 .opening {
     padding-top:7em;
 
@@ -38,5 +40,40 @@
 
     .button {
         margin-top:2em;
+    }
+
+    .play-button {
+        border-radius:50%;
+        font-size:2em;
+        width:2em;
+        display:inline-block;
+        height:2em;
+        border:2px solid #FFF;
+        text-decoration:none;
+        line-height:2em;
+        color:#FFF;
+        margin-top:-4.5em;
+
+        span {
+            font-size:0.4em;
+            text-transform:uppercase;
+            letter-spacing:0.1em;
+            position:absolute;
+            top:100%;
+            color:#666;
+            width:20em;
+            margin-top:1em;
+            margin-left:-10em;
+            line-height:100%;
+        }
+    }
+
+    .play-button:hover {
+        background-color:$tedred;
+        border:2px solid transparent;
+
+        span {
+            color:$tedred;
+        }
     }
 }
