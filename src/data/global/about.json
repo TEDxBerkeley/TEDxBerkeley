@@ -86,5 +86,27 @@
       "title": "Who should I talk to for Media/Press related matters?",
       "copy": "Please contact our Media Contact, Renee Blodgett at renee@magicsaucemedia.com with any media related questions."
     }
-  ]
+  ],
+  "whyattend": {
+    "why": {
+      "title": "Why",
+      "content": "The core of a TEDx event combines live speakers, performers and TEDTalks to spark deep discussions and connections. The immersive and uplifting event can be a life-changing experience. TEDxBerkeley 2015 will provide a platform for the Bay Area’s leading visionaries and storytellers to speak to an energised group of thinkers, as well as to the world at large. At this event, 1000 changemakers, innovators, thinkers, creatives, cultural leaders & social pioneers will witness a back-to-back schedule of talks, performances and other multimedia surprises showcasing: pioneering technologies, fresh thinking and new ideas that will foster creativity and action around the world."
+    },
+    "when": {
+      "title": "When",
+      "content": "February 28th, 2015, from 10:00AM (Registration from 8:30AM)"
+    },
+    "where": {
+      "title": "Where",
+      "content": "TEDxBerkeley will take place inside Zellerbach Hall, the premiere performance venue for Cal Performance and the greater Berkeley community. Designed by award-winning architect Vernon DeMars, the facility has hosted world-class performances in music, dance, theater, and opera, and will serve as the perfect venue for TEDxBerkeley."
+    },
+    "what": {
+      "title": "What",
+      "content": "A full day’s worth of speaker presentations and live performances at UC Berkeley to create a TED-like experience. Everyone involved will be encouraged to discuss the ideas and themes that develop throughout the day. These will be documented in real time and online via aggregated social media commentary. Each presentation will be filmed using multiple cameras for editing and uploading to the official TEDx Youtube channel after the event. The best of the presentations  will be submitted to TED in New York for consideration as TED Talks and potential posting to TED.com, translation into multiple languages for the fast-expanding and global TED.com community."
+    },
+    "forwhom": {
+      "title": "For Whom",
+      "content": "Attendance at TEDxBerkeley is open to anyone who wishes to attend by purchasing a ticket here. We’re seeking to bring together outstanding students, storied professors, inspiring entrepreneurs, forward thinkers, radical architects, intriguing designers, brilliant scientists,and astounding performers who make Berkeley and the Bay Area one of the most exciting and promising regions in the world."
+    }
+  }
 }
