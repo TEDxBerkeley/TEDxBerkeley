@@ -1,0 +1,18 @@
+<section class="cards wrap-container">
+    <div class="wrap">
+        <div class="row">
+        {% set index = 0 %}
+        {% for card in about.whyattend %}
+        {% if index % 3 == 0 %}
+        </div>
+        <div class="row">
+        {% endif %}
+            <div class="card">
+                <h2 class="card-title">{{ card.title }}</h2>
+                <p class="card-content">{{ card.content }}</p>
+            </div>
+        {% set index = index + 1 %}
+        {% endfor %}
+        </div>
+    </div>
+</section>

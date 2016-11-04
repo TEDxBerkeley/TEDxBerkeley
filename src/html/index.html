@@ -2,11 +2,10 @@
 {% block top %}
 {% endblock %}
 
-{% block title %}TEDxBerkeley 2017{% endblock %}
+{% block title %}TEDxBerkeley {{ events.current }}{% endblock %}
 
 {% block body %}
 {% include "modules/opening.html" %}
 {% include "modules/text_with_title.html" %}
 {% include "modules/mosaic.html" %}
-{% include "modules/banners.html" %}
 {% endblock %}
