@@ -1,6 +1,10 @@
-{{about.whatistedxberkeley.title}}
-{{about.whatistedxberkeley.copy}}
-{{about.abouttedx.title}}
-{{about.abouttedx.copy}}
-{{about.aboutted.title}}
-{{about.aboutted.copy}}
+{% extends "layouts/base.html" %}
+{% block top %}
+{% endblock %}
+
+{% block title %}TEDxBerkeley {{ events.current }}{% endblock %}
+
+{% block body %}
+{% include "modules/dark_text_with_title_what.html" %}
+{% include "modules/dark_text_with_title_tedx.html" %}
+{% endblock %}
