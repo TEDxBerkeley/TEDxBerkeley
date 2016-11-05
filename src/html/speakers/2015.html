@@ -1,10 +1,10 @@
-{% extends "layouts/base.html" %}
+{% extends "../layouts/base.html" %}
 {% block top %}
 {% endblock %}
 
 {% block title %}TEDxBerkeley {{ events.current }} Partners{% endblock %}
 
 {% block body %}
-{% set annual_speakers = speakers.2016 %}
-{% include "modules/people_speakers.html" %}
+{% set annual_speakers = speakers.2015 %}
+{% include "../modules/people_speakers.html" %}
 {% endblock %}

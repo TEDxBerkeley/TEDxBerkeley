@@ -1,0 +1,31 @@
+$dim: 10em;
+
+.people {
+    background-color:#222;
+
+    .profile {
+        .profile-pic-mask {
+            width:$dim;
+            height:$dim;
+            border-radius:50%;
+            overflow:hidden;
+            display:inline-block;
+        }
+
+        .profile-pic {
+            width:$dim;
+            height:$dim;
+            display:inline-block;
+        }
+
+        .profile-name {
+            color:#FFF;
+            font-size:1.25em;
+        }
+
+        .profile-byline {
+            color:#999;
+            min-height:5em;
+        }
+    }
+}
