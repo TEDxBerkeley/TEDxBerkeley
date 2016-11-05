@@ -1,4 +1,4 @@
-$height: 20em;
+$height: 25em;
 
 .mosaic {
     width:100%;
@@ -19,8 +19,21 @@ $height: 20em;
         }
     }
 
-    .image-cont.m2 {
-        height:$height * 2;
-        margin-bottom:-20em;
+    .text-cont {
+        background-color:#111;
+        height:$height;
+        padding:3em 5em;
+
+        .title {
+            color:#FFF;
+            margin-bottom:1em;
+            font-family:'Lora';
+        }
+
+        .copy {
+            color:#999;
+            font-size:1.1em;
+            line-height:200%;
+        }
     }
 }

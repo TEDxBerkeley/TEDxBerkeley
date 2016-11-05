@@ -1,15 +1,15 @@
 {
   "whatistedxberkeley": {
     "title": "What is TEDxBerkeley?",
-    "copy": "On February 6, 2016 TEDxBerkeley is gathering world-leading thinkers, makers, and doers at UC Berkeley to discuss “Finding x.”. The audience will be composed of a diverse mix of over 1500 students, professors, and thought leaders from Berkeley and beyond for a stimulating day of presentations, discussions, entertainment and art that will spark new ideas and opportunities for all."
+    "copy": "On April 16, 2017 TEDxBerkeley is gathering world-leading thinkers, makers, and doers at UC Berkeley to discuss “Constellate”. The audience will be composed of a diverse mix of over 1500 students, professors, and thought leaders from Berkeley and beyond for a stimulating day of presentations, discussions, entertainment and art that will spark new ideas and opportunities for all."
   },
   "abouttedx": {
-    "title": "About TEDx, x = independently organized event",
+    "title": "About TEDx, <span>x = independently organized event</span>",
     "copy": "In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)"
   },
   "aboutted": {
     "title": "About TED",
-    "copy": "TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 25 years ago, TED has grown to support those world-changing ideas with multiple initiatives. The annual TED Conference invites the world’s leading thinkers and doers to speak for 18 minutes. Their talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Al Gore, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Isabel Allende and former UK Prime Minister Gordon Brown. The annual TED Conference takes place each spring in Long Beach, California, along with the TEDActive simulcast in Palm Springs; the annual TEDGlobal conference is held each summer in Edinburgh, Scotland.\n\nTED’s media initiatives include TED.com, where new TEDTalks are posted daily, the recently launched TED-Ed platform for students and educators, the Open Translation Project, which provides subtitles and interactive transcripts as well as the ability for any TEDTalk to be translated by volunteers worldwide, and TEDBooks, short e-books by speakers that elaborate on a single idea originally presented on TED’s stage. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world are given the opportunity to put their wishes into action; TEDx, which offers individuals or groups a way to host local, self-organized events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to become part of the TED community and, with its help, amplify the impact of their remarkable projects and activities. Follow TED on Twitter or on Facebook.\n\nFollow TED on Twitter at twitter.com/TEDTalks, or on Facebook at facebook.com/TED."
+    "copy": "TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 25 years ago, TED has grown to support those world-changing ideas with multiple initiatives. The annual TED Conference invites the world’s leading thinkers and doers to speak for 18 minutes. Their talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Al Gore, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Isabel Allende and former UK Prime Minister Gordon Brown. The annual TED Conference takes place each spring in Long Beach, California, along with the TEDActive simulcast in Palm Springs; the annual TEDGlobal conference is held each summer in Edinburgh, Scotland.<br/><br/>TED’s media initiatives include TED.com, where new TEDTalks are posted daily, the recently launched TED-Ed platform for students and educators, the Open Translation Project, which provides subtitles and interactive transcripts as well as the ability for any TEDTalk to be translated by volunteers worldwide, and TEDBooks, short e-books by speakers that elaborate on a single idea originally presented on TED’s stage. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world are given the opportunity to put their wishes into action; TEDx, which offers individuals or groups a way to host local, self-organized events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to become part of the TED community and, with its help, amplify the impact of their remarkable projects and activities. Follow TED on Twitter or on Facebook.<br/><br/>Follow TED on Twitter at twitter.com/TEDTalks, or on Facebook at facebook.com/TED."
   },
   "getthemostout": [
     {
@@ -87,30 +87,30 @@
       "copy": "Please contact our Media Contact, Renee Blodgett at renee@magicsaucemedia.com with any media related questions."
     }
   ],
-  "whyattend": [
-    {
+  "whyattend": {
+    "why": {
       "title": "Why",
       "content": "The core of a TEDx event combines live speakers, performers and TEDTalks to spark deep discussions and connections.",
       "more": "The immersive and uplifting event can be a life-changing experience. TEDxBerkeley will provide a platform for the Bay Area’s leading visionaries and storytellers to speak to an energised group of thinkers, as well as to the world at large. At this event, 1000 changemakers, innovators, thinkers, creatives, cultural leaders & social pioneers will witness a back-to-back schedule of talks, performances and other multimedia surprises showcasing: pioneering technologies, fresh thinking and new ideas that will foster creativity and action around the world."
     },
-    {
+    "where": {
       "title": "Where",
       "content": "TEDxBerkeley will take place inside Zellerbach Hall, the premiere performance venue for Cal Performance and the greater Berkeley community.",
       "more": "Designed by award-winning architect Vernon DeMars, the facility has hosted world-class performances in music, dance, theater, and opera, and will serve as the perfect venue for TEDxBerkeley."
     },
-    {
+    "what": {
       "title": "What",
       "content": "A full day’s worth of speaker presentations and live performances at UC Berkeley to create a TED-like experience.",
       "more": "Everyone involved will be encouraged to discuss the ideas and themes that develop throughout the day. These will be documented in real time and online via aggregated social media commentary. Each presentation will be filmed using multiple cameras for editing and uploading to the official TEDx Youtube channel after the event. The best of the presentations  will be submitted to TED in New York for consideration as TED Talks and potential posting to TED.com, translation into multiple languages for the fast-expanding and global TED.com community."
     },
-    {
+    "forwhom": {
       "title": "For Whom",
       "content": "Attendance at TEDxBerkeley is open to anyone who wishes to attend by purchasing a ticket here.",
       "more": "We’re seeking to bring together outstanding students, storied professors, inspiring entrepreneurs, forward thinkers, radical architects, intriguing designers, brilliant scientists,and astounding performers who make Berkeley and the Bay Area one of the most exciting and promising regions in the world."
     },
-    {
+    "when": {
       "title": "When",
       "content": "April 16, 2017 from 10:00AM on, with registration beginning at 8:30AM"
     }
-  ]
+  }
 }

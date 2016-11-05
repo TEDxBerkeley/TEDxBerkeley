@@ -1,3 +1,10 @@
+/*!
+ * TEDxBerkeley 2017
+ * Website Designed by Alvin Wan (alvinwan.com)
+ */
+
+$tedred: rgba(230,43,30,1);
+
 * {
     position:relative;
 }
@@ -30,8 +37,9 @@ a:hover {
     text-decoration:none;
     display:inline-block;
     padding:1.5em 3em 2em 3em;
-    color:#000;
     border:2px solid #000;
+    border:2px solid $tedred;
+    color:$tedred;
 
     .bracket {
         font-size:2em;
@@ -39,14 +47,22 @@ a:hover {
     }
 }
 
+.animate3 {
+    -webkit-transition: 0.3s ease;
+    -moz-transform:     0.3s ease;
+    -o-transform:       0.3s ease;
+    transition:         0.3s ease;
+}
+
 .button:hover {
-    background-color:#333;
+    background-color:$tedred;
     color:#FFF;
 }
 
 @import 'includes/header';
 @import 'includes/footer';
 @import 'modules/cards';
+@import 'modules/darkopening';
 @import 'modules/mosaic';
 @import 'modules/opening';
-@import 'modules/text_with_title';
+@import 'modules/dark_text_with_title';

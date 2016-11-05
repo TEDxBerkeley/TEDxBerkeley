@@ -138,33 +138,12 @@ gulp.task('serve', ['preview'], function() {
 });
 
 gulp.task('preview',
-          ['global_json', 'js', 'sass', 'html', 'copy', 'CNAME-staging',
-          'gitignore']);
-
-gulp.task('production',
-          ['global_json', 'js', 'sass', 'html', 'copy', 'CNAME-production',
-          'gitignore'])
+          ['global_json', 'js', 'sass', 'html', 'copy', 'gitignore']);
 
 gulp.task('copy', function() {
   return gulp.src("src/static/**/*.*", {base: "src"})
     .pipe(gulp.dest(PUBLISHED_DIR))
 });
-
-gulp.task('CNAME-staging', function() {
-    return gulp.src('CNAME-staging')
-        .pipe(rename(function(path) {
-            path.basename = path.basename.replace('-staging', '');
-        }))
-        .pipe(gulp.dest(PUBLISHED_DIR));
-});
-
-gulp.task('CNAME-production', function() {
-    return gulp.src('CNAME-production')
-        .pipe(rename(function(path) {
-            path.basename = path.basename.replace('-production', '');
-        }))
-        .pipe(gulp.dest(PUBLISHED_DIR));
-})
 
 gulp.task('gitignore', function() {
     return gulp.src('.gitignore').pipe(gulp.dest(PUBLISHED_DIR));
@@ -182,7 +161,11 @@ gulp.task('sass', function() {
 
 // Compile Twig templates to HTML
 gulp.task('html', function() {
-  return gulp.src('src/html/*.html')
+  return gulp.src([
+        'src/html/**/*.html',
+        '!src/html/includes/*.html',
+        '!src/html/layouts/*.html',
+        '!src/html/modules/*.html'])
     .pipe(data(getGlobalJsonData))
     .pipe(data(getJsonData))
     .pipe(twigGenerator())

@@ -5,7 +5,44 @@ header {
     left:0;
     z-index:100;
     box-sizing:border-box;
-    padding:0 2em;
+    padding:2em 3em;
+
+    .logo {
+        padding:0;
+        margin:0;
+        display:inline-block;
+        font-size:2em;
+    }
+
+    .logo-cont a {
+        font-weight:600;
+        font-size:1.5em;
+        display:inline-block;
+        margin-top:-0.07em;
+        color:inherit;
+    }
+
+    .logo-cont {
+        color:#FFF;
+        text-align:center;
+        width:1.5em;
+        height:1.5em;
+        margin:0;
+        overflow:hidden;
+        display:inline-block;
+    }
+
+    .logo-cont:hover {
+        color:$tedred;
+        -webkit-transform:  rotate(180deg);
+        -moz-transform:     rotate(180deg);
+        -o-transform:       rotate(180deg);
+        transform:          rotate(180deg);
+    }
+
+    nav {
+        float:right;
+    }
 
     nav, ul {
         margin:0;
@@ -26,12 +63,12 @@ header {
             font-size:0.8em;
             text-transform:uppercase;
             font-family:'Lato';
-            color:#666;
+            color:#FFF;
         }
 
         a:hover {
-            border-bottom:1px solid #333;
-            color:#333;
+            border-bottom:1px solid #FFF;
+            color:#FFF;
         }
     }
 }
