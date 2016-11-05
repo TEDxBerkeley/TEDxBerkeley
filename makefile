@@ -1,3 +1,16 @@
+.PHONY: deploy staging update
+
+# usage: make deploy m="commit message"
+deploy:
+	gulp preview
+	cd ../tedxberkeley.github.io && \
+	git pull --force && \
+	cp -r ../TEDxBerkeley/published/* . && \
+	cp ../TEDxBerkeley/published/.gitignore . && \
+	git add . && \
+	git commit -m "deploy: $(m)" --allow-empty && \
+	git push
+
 # usage: make staging m="commit message"
 staging:
 	rm -rf published

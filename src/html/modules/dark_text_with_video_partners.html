@@ -2,8 +2,13 @@
     <div class="wrap">
         <h2 class="title">{{ partners.howcanwehelpyou.title }}</h2>
         <p class="content">{{ partners.howcanwehelpyou.copy }}</p>
-        <h2 class="title">{{ partners.benefitsofsponsorship.title }}</h2>
-        <p class="content">{{ partners.benefitsofsponsorship.benefits }}</p>
+        <iframe width="{{ partners.video.width }}" height="{{ partners.video.height }}" src="{{ partners.video.url }}" frameborder="0" allowfullscreen></iframe>
+        <p class="content">{{ partners.benefitsofsponsorship.preface }}</h2>
+        <ul class="content">
+            {% for benefit in partners.benefitsofsponsorship.benefits %}
+            <li>{{ benefit }}</li>
+            {% endfor %}
+        </ul>
     </div>
     <span class="asterisk">*</span>
 </section>
