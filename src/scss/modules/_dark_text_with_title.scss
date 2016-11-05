@@ -1,0 +1,31 @@
+.dark_text_with_title {
+    padding-bottom:10em;
+    background-color:#111;
+    text-align:left;
+
+    .wrap {
+        width:60%;
+        max-width:45em;
+        margin-left:15%;
+        margin-right:25%;
+    }
+
+    .title {
+        text-transform:uppercase;
+        color:#FFF;
+        font-weight:600;
+        font-size:3em;
+        margin-bottom:1em;
+
+        span {
+            color: $tedred;
+        }
+    }
+
+    .content {
+        font-size:1.25em;
+        color:#ccc;
+        line-height:200%;
+        font-family:'Lora';
+    }
+}
