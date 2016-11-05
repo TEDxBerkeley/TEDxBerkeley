@@ -7,6 +7,7 @@
             </span>
             <h2 class="profile-name">{{ speaker.speaker_title }}</h2>
             <p class="profile-byline">{{ speaker.speaker_byline }}</p>
+            <p class="profile-copy">{{ substr(speaker.description) }}</p>
         </div>
         {% endfor %}
     </div>
