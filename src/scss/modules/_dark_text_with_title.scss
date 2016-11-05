@@ -1,7 +1,8 @@
 .dark_text_with_title {
-    padding-bottom:10em;
+    padding:10em 0;
     background-color:#111;
     text-align:left;
+    overflow:hidden;
 
     .wrap {
         width:60%;
@@ -27,5 +28,15 @@
         color:#ccc;
         line-height:200%;
         font-family:'Lora';
+        margin-bottom:2em;
+    }
+
+    .asterisk {
+        font-size:40em;
+        font-weight:600;
+        color:$tedred;
+        position:absolute;
+        top:0;
+        right:-0.1em;
     }
 }
