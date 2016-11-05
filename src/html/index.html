@@ -6,7 +6,19 @@
 
 {% block body %}
 {% include "modules/darkopening.html" %}
-{% include "modules/dark_text_with_title_what.html" %}
+
+{% set dark_text_title = 'What is TEDxBerkeley really<span>*</span> about?' %}
+{% set dark_text_copy = about.whatistedxberkeley.copy %}
+{% set dark_text_href = '/speakers' %}
+{% set dark_text_link = 'See 2017 Speakers <span class="bracket">&RightAngleBracket;</span>' %}
+{% set dark_text_asterisk = true %}
+{% include "modules/dark_text_with_title_single.html" %}
+
+{% set dark_text_title = 'Interested in Becoming<span>*</span> a Partner?' %}
+{% set dark_text_copy = partners.summary.copy %}
+{% set dark_text_href = '/partners' %}
+{% set dark_text_link = 'Learn More <span class="bracket">&RightAngleBracket;</span>' %}
 {% include "modules/mosaic.html" %}
-{% include "modules/dark_text_with_title_sponsor.html" %}
+{% set dark_text_asterisk = false %}
+{% include "modules/dark_text_with_title_single.html" %}
 {% endblock %}

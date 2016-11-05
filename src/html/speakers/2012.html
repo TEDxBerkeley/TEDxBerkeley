@@ -1,0 +1,10 @@
+{% extends "../layouts/base.html" %}
+{% block top %}
+{% endblock %}
+
+{% block title %}TEDxBerkeley 2012 Speakers{% endblock %}
+
+{% block body %}
+{% set annual_speakers = speakers.2012 %}
+{% include "../modules/people_speakers.html" %}
+{% endblock %}

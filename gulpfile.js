@@ -90,6 +90,10 @@ function range(cap) {
     return numbers;
 }
 
+function substr(string) {
+    return string.substr(0, 100) + '...';
+}
+
 // Define functions to use in Twig templates
 twigFunctions = [
   {
@@ -107,6 +111,10 @@ twigFunctions = [
   {
     name: "range",
     func: range
+  },
+  {
+    name: "substr",
+    func: substr
   }
 ];
 
