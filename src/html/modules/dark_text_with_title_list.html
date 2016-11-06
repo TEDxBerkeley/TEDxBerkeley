@@ -1,0 +1,9 @@
+<section class="dark_text_with_title wrap-container">
+    <div class="wrap">
+        <h2 class="title">{{ dart_text_title }}</h2>
+        {% for question in list %}
+        <h3 class="subtitle">{{ question.title }}</h3>
+        <p class="content">{{ question.copy }}</p>
+        {% endfor %}
+    </div>
+</section>

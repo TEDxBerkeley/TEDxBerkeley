@@ -5,4 +5,15 @@
 {% block title %}TEDxBerkeley {{ events.current }} Contact{% endblock %}
 
 {% block body %}
+{% include "modules/dark_dominant_with_side_text.html" %}
+
+{% set light_text_title = 'Speaker Nomination?' %}
+{% set light_text_copy = 'We are currently accepting nominations for the TEDxBerkeley 2017 conference.' %}
+{% set light_text_href = speakers.nominations_form.url %}
+{% set light_text_link = 'Nominate a Speaker' %}
+{% include "modules/light_text_with_title.html" %}
+
+{% set dark_text_title = 'Frequently Asked Questions' %}
+{% set list = about.faq %}
+{% include "modules/dark_text_with_title_list.html" %}
 {% endblock %}

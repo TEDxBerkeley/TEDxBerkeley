@@ -1,0 +1,39 @@
+.dark_dominant_with_side_text {
+    background-color:#111;
+    padding-top:10em;
+
+    .flush-right {
+        text-align:left;
+        padding:2em 5em;
+    }
+
+    .title {
+        color:#FFF;
+        margin-bottom:0.5em;
+        font-size:3em;
+        text-transform:uppercase;
+        font-weight:600;
+    }
+
+    .flush-left {
+        overflow:hidden;
+
+        .flush-left-image {
+            display:inline-block;
+            width:100%;
+            height:25em;
+        }
+    }
+
+    .copy {
+        color:#999;
+        font-size:1.25em;
+        font-family:'Lora';
+    }
+
+    .hanging-image {
+        margin-left:30%;
+        margin-bottom:-5em;
+        margin-top:-3em;
+    }
+}

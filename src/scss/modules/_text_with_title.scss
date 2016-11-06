@@ -1,0 +1,44 @@
+.text_with_title {
+    padding:10em 0;
+    text-align:left;
+    overflow:hidden;
+    width:100%;
+
+    .wrap {
+        width:60%;
+        max-width:45em;
+        margin-left:15%;
+        margin-right:25%;
+    }
+
+    .title {
+        text-transform:uppercase;
+        font-weight:600;
+        font-size:3em;
+        margin-bottom:1em;
+
+        span {
+            color: $tedred;
+        }
+    }
+
+    .content {
+        font-size:1.25em;
+        line-height:200%;
+        font-family:'Lora';
+        margin-bottom:2em;
+    }
+
+    iframe + p {
+        margin-top:2em;
+    }
+}
+
+.asterisk {
+    font-size:40em;
+    font-weight:600;
+    color:$tedred;
+    position:absolute;
+    top:0;
+    right:-0.1em;
+}

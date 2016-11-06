@@ -1,4 +1,11 @@
-{% for elem in about.getthemostout %}
-{{elem.title}}
-{{elem.copy}}
-{% endfor %}
+{% extends "../layouts/base.html" %}
+{% block top %}
+{% endblock %}
+
+{% block title %}TEDxBerkeley {{ events.current }} Get the Most Out{% endblock %}
+
+{% block body %}
+{% set dark_text_title = 'Get The Most Out of TEDxBerkeley' %}
+{% set list = about.getthemostout %}
+{% include "../modules/dark_text_with_title_list.html" %}
+{% endblock %}

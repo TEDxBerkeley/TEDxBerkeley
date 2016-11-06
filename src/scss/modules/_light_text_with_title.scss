@@ -1,0 +1,15 @@
+.light_text_with_title {
+    @extend .text_with_title;
+
+    .title {
+        color:#333;
+
+        span {
+            color: $tedred;
+        }
+    }
+
+    .content {
+        color:#999;
+    }
+}
