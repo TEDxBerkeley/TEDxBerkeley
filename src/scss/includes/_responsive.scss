@@ -7,18 +7,29 @@ $screen-lg-min: 1200px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
+    section.dark_dominant_with_side_text {
 
+        .flush-right {
+            padding:2em 5em;
+        }
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
     .wrap {
         width:80%;
+    }
+
+    section.dark_dominant_with_side_text {
+
+        .asterisk {
+            top:0;
+        }
     }
 
     .darkopening {
@@ -52,17 +63,6 @@ $screen-lg-min: 1200px;
             width:60%;
             margin-left:15%;
             margin-right:25%;
-        }
-    }
-
-    .dark_dominant_with_side_text {
-
-        .flush-right {
-            padding:2em 5em;
-        }
-
-        .asterisk {
-            top:0;
         }
     }
 
