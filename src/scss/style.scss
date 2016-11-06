@@ -25,26 +25,31 @@ a:hover {
 }
 
 .wrap {
-    width:80%;
+    width:90%;
     float:none;
     display:inline-block;
 }
 
 .button {
     text-transform:uppercase;
-    font-size:0.7em;
+    font-size:1em;
     letter-spacing:0.25em;
     text-decoration:none;
     display:inline-block;
-    padding:1.5em 3em 2em 3em;
+    padding:1.2em 3em 1.8em 3em;
     border:2px solid #000;
     border:2px solid $tedred;
     color:$tedred;
+    font-weight:600;
 
     .bracket {
-        font-size:2em;
-        margin:-0.5em 0 -0.5em 0.75em;
+        font-size:1.5em;
+        margin:-0.25em 0 -0.5em 0.75em;
     }
+}
+
+section + section {
+    margin-top:-0.1em;
 }
 
 .animate3 {
@@ -70,3 +75,4 @@ a:hover {
 @import 'modules/text_with_title';
 @import 'modules/dark_text_with_title';
 @import 'modules/light_text_with_title';
+@import 'includes/responsive';

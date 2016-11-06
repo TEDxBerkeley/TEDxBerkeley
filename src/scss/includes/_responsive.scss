@@ -1,0 +1,79 @@
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+    .wrap {
+        width:80%;
+    }
+
+    .darkopening {
+        padding:7em 0 0 0;
+
+        .wrap {
+            padding-left:20%;
+        }
+
+        .title {
+            font-size:5em;
+        }
+
+        .play-button {
+            margin-top:-4.5em;
+        }
+
+        .playbar {
+            margin-top:0;
+
+            span {
+                font-size:0.4em;
+            }
+        }
+    }
+
+    .text_with_title {
+        padding:10em 0;
+
+        .wrap {
+            width:60%;
+            margin-left:15%;
+            margin-right:25%;
+        }
+    }
+
+    .dark_dominant_with_side_text {
+
+        .flush-right {
+            padding:2em 5em;
+        }
+
+        .asterisk {
+            top:0;
+        }
+    }
+
+    .button {
+        font-size:0.7em;
+        padding:1.5em 3em 2em 3em;
+        font-weight:400;
+
+        .bracket {
+            font-size:2em;
+            margin:-0.5em 0 -0.5em 0.75em;
+        }
+    }
+}

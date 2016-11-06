@@ -4,7 +4,7 @@
 
     .flush-right {
         text-align:left;
-        padding:2em 5em;
+        padding:2em 0;
     }
 
     .title {
@@ -17,6 +17,7 @@
 
     .flush-left {
         overflow:hidden;
+        z-index:10;
 
         .flush-left-image {
             display:inline-block;
@@ -35,5 +36,10 @@
         margin-left:30%;
         margin-bottom:-5em;
         margin-top:-3em;
+    }
+
+    .asterisk {
+        top:0.4em;
+        z-index:1;
     }
 }

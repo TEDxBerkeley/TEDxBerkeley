@@ -1,14 +1,15 @@
 .text_with_title {
-    padding:10em 0;
+    padding:2em 0;
     text-align:left;
     overflow:hidden;
     width:100%;
 
     .wrap {
-        width:60%;
+        z-index:10;
+        width:80%;
         max-width:45em;
-        margin-left:15%;
-        margin-right:25%;
+        margin-left:10%;
+        margin-right:10%;
     }
 
     .title {
@@ -41,4 +42,5 @@
     position:absolute;
     top:0;
     right:-0.1em;
+    z-index:1;
 }
