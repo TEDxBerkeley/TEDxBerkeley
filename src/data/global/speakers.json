@@ -4,10 +4,58 @@
   },
   "2017": [
     {
-      "speaker_title": "Celli@Berkeley",
-      "speaker_byline": "UC Berkeley Celli Performance Group",
-      "description": "Celli@Berkeley was created one night in 2012 after the cellists of the UC Berkeley Symphony Orchestra realized that the only thing better than one cello was many, many cellos. Composed of sixteen students studying a variety of academic disciplines, they are united by a desire to express the possibilities of the cello. They love performing and sharing music ranging from classical to pop, not only in concert halls but also outdoors - by the Campanile, in art galleries, at marathons or flea markets, and on the streets of Berkeley!",
-      "speaker_image_uri": "https://www.youtube.com/watch?v=fo5zRfU-MRw"
+      "speaker_title": "Minh Dang",
+      "speaker_byline": "Team Manager at Linde Group",
+      "description": "Minh Dang is a Team Manager at Linde Group, an IT consulting firm in Emeryville.  She is a Presidential Appointee to the first ever U.S. Advisory Council on Human Trafficking and is also currently a Co-Principal Investigator for a community-based research study funded by the National Institute of Justice entitled, 'Researcher-Survivor-Ally Formative Evaluation of San Francisco's Anti-Trafficking Task Forces'. Minh has received awards from the ACLU, Cal Alumni Association, City of Berkeley, and more. In 2013, she was one of fifteen AAPI Women named a Champion of Change by President Barack Obama. Minh first publicly identified as a survivor of slavery and incest in 2008, when MSNBC featured her story of slavery in a documentary. Minh also serves as an independent consultant, providing training and technical assistance for organizations addressing human trafficking and child abuse. Informally, she provides guidance and mentorship to survivors and formally, she serves on the Advisory Board of AnnieCannons, a pioneering organization that trains survivors of human trafficking in web development and programming. From 2005 to 2011, Minh worked at the University of California, Berkeley Public Service Center as an AmeriCorps Program Coordinator. She earned her B.A. in Sociology and her M.S.W. from the University of California, Berkeley. In her spare time, Minh plays center-mid on the soccer field, is training to hike the John Muir Trail, and has an unabashed love for stationary.",
+      "speaker_image_uri": "../../static/images/speakerPics/MinhDang.jpg"
+    },
+    {
+      "speaker_title": "Mike Duffy",
+      "speaker_byline": "Founder of Happiness Publishing, LLC",
+      "description": "Mike Duffy is the founder of Happiness Publishing, LLC. He has been researching happiness for over 30 years. He is friends with and has interviewed the brightest minds in the field of positive psychology. He is the author of The Happiness Book: A Positive Guide To Happiness, The Happiness Book For Men and The Happiness Book For Kids: A Child’s Guide To Happiness! Volume I & II. Mike is the founder of The Happiness Hall Of Fame. Members of the hall include: Muhammad Ali, Chris Anderson, curator of TED; Mr. October, Reggie Jackson; Dr. Wayne Dyer, Serena Williams, Derek Jeter, NFL Hall Of Famer, Roger Staubach; Taylor Swift, Olympic gold medalist, Kristi Yamaguchi; The San Francisco Giants, The Golden State Warriors, Dolly Parton, Carlos Santana’s Milagro Foundation, Saint Mother Teresa’s Missionaries Of Charity and many others. The Happiness Hall Of Fame recognizes, encourages and celebrates people and organizations that make other people happy. The website is www.happinesshalloffame.com.",
+      "speaker_image_uri": "../../static/images/speakerPics/MikeDuffy.jpg"
+    },
+    {
+      "speaker_title": "Vivienne Ming",
+      "speaker_byline": "Theoretical neuroscientist, Technologist, Entrepreneur",
+      "description": "Named one of 10 Women to Watch in Tech in 2013 by Inc. Magazine, Vivienne Ming is a theoretical neuroscientist, technologist and entrepreneur. She co-founded Socos, where machine learning and cognitive neuroscience combine to maximize students' life outcomes. Vivienne is also a visiting scholar at UC Berkeley's Redwood Center for Theoretical Neuroscience, where she pursues her research in neuroprosthetics. In her free time, Vivienne has developed a predictive model of diabetes to better manage the glucose levels of her diabetic son and systems to predict manic episodes in bipolar sufferers. She sits on the boards of The Palm Center, Emozia, Engender, and Genderis Inc., and is a Chief Science Advisor to Cornerstone Capital, Platypus Institute, Shiftgig, and Bayes Impact. Dr. Ming also speaks frequently on issues of LGBT inclusion and gender in technology. Vivienne lives in Berkeley, CA, with her wife (and co-founder) and their two children.",
+      "speaker_image_uri": "../../static/images/speakerPics/VivienneMing.jpg"
+    },
+    {
+      "speaker_title": "Tai Tran",
+      "speaker_byline": "Experienced Storyteller, Speaker, Writer, and Marketer",
+      "description": "Tai is an experienced storyteller, speaker, writer, and marketer. His work has been widely recognized by Forbes, LinkedIn, Business Insider, UC Berkeley, and UCLA. In its fifth annual list, Tai was named the youngest Forbes 30 Under 30 in Marketing & Advertising. LinkedIn featured him as the youngest top writer of the year in its inaugural Top Voices list, which included Bill Gates and Richard Branson. Tai is a regular contributor on Forbes, LinkedIn, and Social Media Today, where he writes about personal branding, thought leadership, digital marketing, and millennials. He has spoken at the Forbes CMO Summit, LinkedIn Marketing & Communications Quarterly Conference, Blackbox VC Accelerator Summit, UCLA Personal Innovation Series, and Berkeley-Haas MBA Series. At Apple, Tai is the lead producer for social & content. Prior to Apple, he led digital marketing and communications for Samsung, UC Berkeley, and the Haas School of Business. Tai also taught one of UC Berkeley’s most popular undergraduate courses in digital marketing, content publishing, and personal branding. Tai is a proud Cal and Berkeley-Haas alum.",
+      "speaker_image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
+    },
+    {
+      "speaker_title": "François Reyes",
+      "speaker_byline": "President & Founder of Réveil Citoyen",
+      "description": "Born in 1996 in the North of France, François Reyes has since his earliest years developed an interest in politics. But these past few years, after working for a senator during some time in France, he realized that change could only come from civil society. Deeply impacted by the lack of interest of the politicians in his homecountry for making people's lives better and countering extremism, he grew the desire to work as hard as possible with 'everyday people' in order to counter the lack of interest of the politicians. After the Charlie Hebdo terrorist attacks in January 2015 in Paris, he created a global NGO called Citizen's Awakening, that has for a goal to counter extremism and create understanding through bringing together people, through dialogue. Citizen's Awakening now is present in Canada, the UK, India, Hungary, France, and many other countries. Impacted on a personnal level by the Paris attacks of November 2015, he pledged to fight as hard as he could againt terrorism worldwide with what he believes is the most powerful weapon on the long term to tackle extremism : our ability so speak up, and to create bridges between different communities and different countries. François Reyes is also a speaker and an ambassador for One Young World & the Quilliam Foundation, and a member of the FATE (Families Against Terrorism & Extremism) network. He's in the middle of writing a book gathering the voices and solutions of/from/for families impacted one way or the other by terrorism, whether they lost a member of their family in a terrorist attack, or a child to the extremist-narrative. ",
+      "speaker_image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
+    },
+    {
+      "speaker_title": "Esther Wojcicki",
+      "speaker_byline": "American journalist & Educator",
+      "description": "",
+      "speaker_image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
+    },
+    {
+      "speaker_title": "Kyle Hanagami",
+      "speaker_byline": "Performer",
+      "description": "",
+      "speaker_image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
+    },
+    {
+      "speaker_title": "Steven Fish",
+      "speaker_byline": "Professor at UC Berkeley",
+      "description": "",
+      "speaker_image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
+    },
+    {
+      "speaker_title": "Damien Horne",
+      "speaker_byline": "Performer",
+      "description": "",
+      "speaker_image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
     }
     ],
   "2016": [
