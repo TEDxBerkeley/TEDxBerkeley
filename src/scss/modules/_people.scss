@@ -1,25 +1,25 @@
 $dim: 10em;
 
-.people {
+.people,.profile-detail {
     padding:5em 0;
     background-color:#111;
 
+    .profile-pic-mask {
+        width:$dim;
+        height:$dim;
+        border-radius:50%;
+        overflow:hidden;
+        display:inline-block;
+    }
+
+    .profile-pic {
+        width:$dim;
+        height:$dim;
+        display:inline-block;
+    }
+
     .profile {
-        min-height:25em;
-
-        .profile-pic-mask {
-            width:$dim;
-            height:$dim;
-            border-radius:50%;
-            overflow:hidden;
-            display:inline-block;
-        }
-
-        .profile-pic {
-            width:$dim;
-            height:$dim;
-            display:inline-block;
-        }
+        min-height:20em;
 
         .profile-name {
             color:#FFF;
@@ -35,5 +35,62 @@ $dim: 10em;
             font-size:0.9em;
             line-height:150%;
         }
+    }
+
+    .profile-more {
+        text-transform:uppercase;
+        background-color:rgba(255,255,255,0.05);
+        color:rgba(255,255,255,0.5);
+        padding:0.75em;
+    }
+
+    .profile-more:hover {
+        cursor:pointer;
+        color:#FFF;
+        background-color:rgba(255,255,255,0.08);
+    }
+}
+
+.profile-background {
+    background-color:rgba(0,0,0,0.1);
+    position:fixed;
+    z-index:5;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.profile-background:not(.profile-detail) {
+    cursor:pointer;
+}
+
+.profile-detail {
+    cursor:auto;
+    color:#FFF;
+    position:fixed;
+    padding:5em;
+    bottom:0;
+    left:5%;
+    width:90%;
+    height:100%;
+    overflow-y:scroll;
+    background-color:#222;
+    z-index:150;
+    box-shadow:0 0 1em 0 rgba(0,0,0,0.3);
+
+    .profile-byline {
+        color:#999;
+        font-size:1.5em;
+    }
+
+    .profile-copy {
+        line-height:150%;
+        color:#ccc;
+        font-size:1.15em;
+    }
+
+    .profile-more {
+        width:auto;
     }
 }
