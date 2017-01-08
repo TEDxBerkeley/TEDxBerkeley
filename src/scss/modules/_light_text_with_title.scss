@@ -12,4 +12,20 @@
     .content {
         color:#999;
     }
+
+    padding-bottom:10em;
+}
+
+.light_text_with_title::before {
+    @extend .slantbefore;
+
+    border-left:1000px solid #FFF;
+    border-bottom:50px solid #FFF;
+}
+
+.light_text_with_title::after {
+    @extend .slantafter;
+
+    border-top:50px solid #FFF;
+    border-left:1000px solid #FFF;
 }

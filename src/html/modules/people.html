@@ -1,13 +1,13 @@
 {% set id = 0 %}
-{% for speaker in annual_speakers %}
+{% for speaker in people %}
 {% set id = id + 1 %}
 <div class="profile-background" data-speaker-id="{{ id }}">
     <div class="profile-detail profile">
         <span class="profile-pic-mask">
-            <span class="profile-pic" style="background:url('{{ speaker.speaker_image_uri }}'); background-size:cover; background-position:center;"></span>
+            <span class="profile-pic" style="background:url('{{ speaker.image_uri }}'); background-size:cover; background-position:center;"></span>
         </span>
-        <h2 class="profile-name">{{ speaker.speaker_title }}</h2>
-        <p class="profile-byline">{{ speaker.speaker_byline }}</p>
+        <h2 class="profile-name">{{ speaker.name }}</h2>
+        <p class="profile-byline">{{ speaker.byline }}</p>
         <p class="profile-copy">{{ speaker.description }}</p>
         <p class="profile-more">Close Window</p>
     </div>
@@ -17,14 +17,14 @@
 <section class="people wrap-container">
     <div class="wrap">
         {% set id = 0 %}
-        {% for speaker in annual_speakers %}
+        {% for speaker in people %}
         {% set id = id + 1 %}
         <div class="profile col-md-3">
             <span class="profile-pic-mask">
-                <span class="profile-pic" style="background:url('{{ speaker.speaker_image_uri }}'); background-size:cover; background-position:center;"></span>
+                <span class="profile-pic" style="background:url('{{ speaker.image_uri }}'); background-size:cover; background-position:center;"></span>
             </span>
-            <h2 class="profile-name">{{ speaker.speaker_title }}</h2>
-            <p class="profile-byline">{{ speaker.speaker_byline }}</p>
+            <h2 class="profile-name">{{ speaker.name }}</h2>
+            <p class="profile-byline">{{ speaker.byline }}</p>
             <p class="profile-copy">{{ substr(speaker.description) }}</p>
             <p class="profile-more" data-speaker-id="{{ id }}">View More</p>
         </div>

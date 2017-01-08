@@ -1,6 +1,17 @@
-{% for member in meetTheTeam %}
-{{member.name}}
-{{member.title}}
-{{member.bio}}
-{{member.url}}
-{% endfor %}
+{% extends "../layouts/base.html" %}
+{% block top %}
+{% endblock %}
+
+{% block title %}TEDxBerkeley 2017 Team{% endblock %}
+
+{% block body %}
+{% set word = 'team' %}
+{% set pronounciation = '/tēm/' %}
+{% set actual_definition = 'a group of players forming one side in a competitive game or sport.' %}
+{% set tedxberkeley_definition = 'the TEDxBerkeley 2017 organizing team' %}
+{% set number = 2017 %}
+{% include "../modules/section_introduction.html" %}
+
+{% set people = team %}
+{% include "../modules/people.html" %}
+{% endblock %}

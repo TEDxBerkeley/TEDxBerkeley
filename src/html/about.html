@@ -14,7 +14,11 @@
 {% set dark_text_asterisk = True %}
 {% include "modules/dark_text_with_title_single.html" %}
 
-
+{% set bright_text_title = 'Meet the Team' %}
+{% set bright_text_copy = "We're student-led, right here from the UC Berkeley campus." %}
+{% set bright_text_href = '/about/meetTheTeam' %}
+{% set bright_text_link = 'Meet the 2017 team <span class="bracket">&RightAngleBracket;</span>' %}
+{% include "modules/bright_action.html" %}
 
 {% include "modules/dark_text_with_title_tedx.html" %}
 {% endblock %}

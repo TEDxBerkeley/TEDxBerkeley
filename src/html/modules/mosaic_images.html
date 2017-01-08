@@ -1,0 +1,23 @@
+<section class="mosaic">
+    <div class="row">
+    {% set i = 0 %}
+    {% for image in mosaic_images %}
+        {% if image.type == "image" %}
+        <div class="image-cont col-md-4 m1">
+            <span class="image" style="background: url('{{ image.src }}') center no-repeat; background-size:contain"></span>
+        </div>
+        {% endif %}
+        {% if image.type == "text" %}
+        <div class="text-cont col-md-4 t1">
+            <h2 class="title">{{ image.title }}</h2>
+            <p class="copy">{{ image.content }}</p>
+        </div>
+        {% endif %}
+        {% set i = i + 1 %}
+        {% if i % 3 == 0 %}
+    </div>
+    <div class="row">
+        {% endif %}
+    {% endfor %}
+    </div>
+</section>

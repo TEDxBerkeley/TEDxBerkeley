@@ -48,6 +48,16 @@ a:hover {
     }
 }
 
+.button.white {
+    border:2px solid #FFF;
+    color:#FFF;
+}
+
+.button.white:hover {
+    background-color:#FFF;
+    color:$tedred;
+}
+
 html section.wrap-container {
     padding-top:10em;
 }
@@ -68,8 +78,41 @@ section + section {
     color:#FFF;
 }
 
+.slantbefore {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    float:left;
+    z-index:100;
+    width:0;
+    height:0;
+    border-top:50px solid #111;
+    border-left:1000px solid $tedred;
+    border-right:1000px solid #111;
+    border-bottom:50px solid $tedred;
+}
+
+.slantafter {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    display:block;
+    float:left;
+    z-index:100;
+    width:0;
+    height:0;
+    border-top:50px solid $tedred;
+    border-left:1000px solid $tedred;
+    border-right:1000px solid #111;
+    border-bottom:50px solid #111;
+}
+
 @import 'includes/header';
 @import 'includes/footer';
+@import 'modules/bright_action';
 @import 'modules/cards';
 @import 'modules/darkopening';
 @import 'modules/mosaic';

@@ -1,1 +1,17 @@
-{}
+{
+  "mosaic_images": [
+    {
+      "type": "image",
+      "src": "/static/images/sponsors/gts.png"
+    },
+    {
+      "type": "text",
+      "title": "Meet our Sponsors",
+      "content": "These are our very generous 2017 event sponsors, committed to ideas worth spreading."
+    },
+    {
+      "type": "image",
+      "src": "/static/images/sponsors/guayaki.png"
+    }
+  ]
+}
