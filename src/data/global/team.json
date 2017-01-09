@@ -5,6 +5,18 @@
       "description": "Leilani Gutierrez-Palominos, TEDxBerkeley 2017’s Curator, is a third-year student at UC Berkeley majoring in Molecular & Cell Biology and minoring in Global Poverty & Practice. Although she has a Hawaiian name, she was born in Guadalajara, Jalisco, Mexico and grew up in Fresno, CA. She aspires to be a doctor with a focus on underserved communities. Leilani investigates toxicology with the Nomura Research Group, is a Peer Advisor for the GPP minor, and tutors for the Biology Scholars Program. As member of the Cal Triathlon Team, she can be found hydrating her gills in any nearby body of water. Contact her at leilani@tedxberkeley.org.",
       "image_uri": "/static/images/teamPics/leilani.jpg"
     },
+	"jennifer": {
+		"name": "Jennifer Barr",
+		"byline": "Co-Curator",
+		"description": "",
+		"image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
+	},
+	"renee": {
+		"name": "Renee Blodgett",
+		"byline": "Co-Curator",
+		"description": "",
+		"image_uri": "/static/images/teamPics/renee.jpg"
+	},
     "melody" : {
       "name": "Melody Jung",
       "byline": "Executive Director of Information and Design",
@@ -18,9 +30,9 @@
       "image_uri": "/static/images/teamPics/aashna.jpg"
     },
     "alvin" : {
-    	"name": "Alvin Wan",
+    	"name": "<a href='http://alvinwan.com'><i class='fa fa-link' aria-hidden='true'></i>Alvin Wan</a>",
     	"byline": "Executive Director of Technology",
-    	"description": "Second-year Electrical Engineering and Computer Science undergraduate. I’m a diglot by definition, with a native English tongue and a sprinkling of French utterances. Lactose intolerant by birth but an ice-cream lover at heart. Call me wabbly, witling, whatever you will, but I just go by Alvin. Ask anyone that’s met me: I’m known for a contagious smile and a Macbook Pro. Together, they define me. A smile, for the value of altruism that I stand for. A laptop, for my programming passion and love for design.",
+    	"description": "Third-year Electrical Engineering and Computer Science undergraduate. I’m a diglot by definition, with a native English tongue and a recollection of French utterances. Lactose intolerant by birth but an ice-cream lover at heart. Call me wabbly, witling, whatever you will, but I just go by Alvin. Ask anyone that’s met me: I’m known for a contagious smile and a Macbook Pro. ",
     	"image_uri": "/static/images/teamPics/alvin.jpg"
     },
     "andrew" : {
@@ -39,11 +51,11 @@
     	"name": "Aaron Chelliah",
     	"byline": "Director of Outreach",
     	"description": "Aaron Chelliah is a first year at UC Berkeley, studying economics. Born and raised in sunny Manhattan Beach California, Aaron followed his passion for exploring new ideas by working with TEDxManhattanBeach and debating international topics in Model United Nations. He also enjoyed being opinion editor of the school newspaper for the same reason. Aaron enjoys hiking, discovering new music, and hanging out with his friends. You can usually find him sampling the various cuisines around Berkeley, but you could also try emailing him at achelliah@berkeley.edu.",
-    	"image_uri": "/static/images/teamPics/aaron.jpg"
+    	"image_uri": "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
     },
     "ishan" : {
     	"name": "Ishan Sharma",
-    	"byline": "Manager of Logistics?!?!",
+    	"byline": "Manager of Logistics",
     	"description": "Ishan Sharma is a first-year UC Berkeley student pursuing economics, where he is interested in both business and politics. On the business side, Ishan trades stocks and runs his own LLC, HS Mixers, an event-hosting company for high school students. Ishan also is civically engaged, keeping up with local politics and fighting campus/food insecurity as an intern in the Associated Students of the University of California (ASUC). You can find Ishan skateboarding, playing soccer, or reading non-fiction self help books. Drop him a line at ishan@tedxberkeley.org .",
     	"image_uri": "/static/images/teamPics/ishan.jpg"
     },
