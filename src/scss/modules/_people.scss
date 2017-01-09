@@ -117,6 +117,16 @@ $dim: 10em;
         margin-bottom:1.5em;
     }
 
+    a {
+        color:#FFF;
+        border-bottom:1px dashed #FFF;
+    }
+
+    a:hover {
+        color:#FFF;
+        border-bottom:1px solid #FFF;
+    }
+
     .profile-copy {
         line-height:150%;
         color:#ccc;
