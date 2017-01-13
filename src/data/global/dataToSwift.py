@@ -36,6 +36,9 @@ def convert(prefix: str, year: str, dest: str) -> None:
     elif prefix == 'performer':
         speakers_by_year = [speaker for speaker in speakers_by_year
                             if speaker['byline'].lower() == 'performer']
+    elif prefix == 'team':
+        speakers_by_year = sorted(speakers_by_year.values(),
+                                  key=lambda data: data['name'].split(' ')[0])
 
     names = [speaker['name'] for speaker in speakers_by_year]
     bylines = [speaker['byline'] for speaker in speakers_by_year]
@@ -43,7 +46,12 @@ def convert(prefix: str, year: str, dest: str) -> None:
                   for speaker in speakers_by_year]
 
     for image_uri in image_uris:
-        path = os.path.join(PREFIX, image_uri)
+        if prefix == 'team':
+            _prefix = PREFIX.replace('speaker', 'team')
+            dest = dest.replace('speaker', 'team')
+        else:
+            _prefix = PREFIX
+        path = os.path.join(_prefix, image_uri)
         if os.path.exists(path):
             dst = os.path.join(dest, image_uri)
             open(dst, 'a').close()  # create the file if it doesn't exist
