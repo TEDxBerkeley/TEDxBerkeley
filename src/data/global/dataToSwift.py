@@ -42,6 +42,7 @@ def convert(prefix: str, year: str, dest: str) -> None:
 
     names = [speaker['name'] for speaker in speakers_by_year]
     bylines = [speaker['byline'] for speaker in speakers_by_year]
+    descriptions = [speaker['description'].replace('<br/>', '') for speaker in speakers_by_year]
     image_uris = [os.path.basename(speaker['image_uri'])
                   for speaker in speakers_by_year]
 
@@ -57,11 +58,12 @@ def convert(prefix: str, year: str, dest: str) -> None:
             open(dst, 'a').close()  # create the file if it doesn't exist
             shutil.copy(path, dst)
 
-    stringify = lambda lst: str(lst).replace("'", '"')
+    stringify = lambda lst: '["%s"]' % ('","'.join([item.replace('\n', '') for item in lst]))
 
     print('let %sNames =' % prefix, stringify(names))
     print('let %sBylines =' % prefix, stringify(bylines))
     print('let %sImageUris =' % prefix, stringify(image_uris))
+    print('let %sDescriptions = ' % prefix, stringify(descriptions))
 
 
 def main() -> None:
