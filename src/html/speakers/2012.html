@@ -5,6 +5,9 @@
 {% block title %}TEDxBerkeley 2012 Speakers{% endblock %}
 
 {% block body %}
+{% set sub_nav_links = speakers.links %}
+{% include "../modules/sub_navigation.html" %}
+
 {% set people = speakers.2012 %}
 {% include "../modules/people.html" %}
 {% endblock %}
