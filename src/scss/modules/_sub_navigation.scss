@@ -1,0 +1,37 @@
+.sub-navigation {
+    background-color:#111;
+
+    li {
+        list-style:none;
+        float:left;
+
+        a {
+            margin-top:0.75em;
+            font-size:0.75em;
+            text-transform:uppercase;
+            color:rgba(255,255,255,0.75);
+            padding:1.25em 2em;
+            display:inline-block;
+            letter-spacing:0.1em;
+            border:1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        a:hover {
+            cursor:pointer;
+            color:#FFF;
+            border:1px solid rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    li + li {
+        margin-left:1em;
+    }
+}
+
+.sub-navigation.wrap-container {
+    padding:0;
+}
+
+.sub-navigation.wrap-container:first-of-type {
+    padding-top:10em;
+}

@@ -5,12 +5,8 @@
 {% block title %}TEDxBerkeley 2016 Speakers{% endblock %}
 
 {% block body %}
-{% set word = 'speak&centerdot;er' %}
-{% set pronounciation = '/ˈspēkər/' %}
-{% set actual_definition = 'a person who speaks.' %}
-{% set tedxberkeley_definition = '' %}
-{% set number = 2016 %}
-{% include "../modules/section_introduction.html" %}
+{% set sub_nav_links = speakers.links %}
+{% include "../modules/sub_navigation.html" %}
 
 {% set people = speakers.2016 %}
 {% include "../modules/people.html" %}

@@ -1,4 +1,38 @@
 {
+  "links": [
+    {
+      "text": "2017",
+      "href": "/speakers"
+    },
+    {
+      "text": "2016",
+      "href": "/speakers/2016"
+    },
+    {
+      "text": "2015",
+      "href": "/speakers/2015"
+    },
+    {
+      "text": "2014",
+      "href": "/speakers/2014"
+    },
+    {
+      "text": "2013",
+      "href": "/speakers/2013"
+    },
+    {
+      "text": "2012",
+      "href": "/speakers/2012"
+    },
+    {
+      "text": "2011",
+      "href": "/speakers/2011"
+    },
+    {
+      "text": "2010",
+      "href": "/speakers/2010"
+    }
+  ],
   "nomination_form": {
     "url": "https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSc5tNcTdoMNCyeghnc_Iss__rvb9mpJH4-FWTXCp6FxUHqbhQ/viewform"
   },
