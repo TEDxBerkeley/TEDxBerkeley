@@ -26,7 +26,12 @@
             <h2 class="profile-name">{{ speaker.name }}</h2>
             <p class="profile-byline">{{ speaker.byline }}</p>
             <p class="profile-copy">{{ speaker.short_description or substr(speaker.description) }}</p>
-            <p class="profile-more" data-speaker-id="{{ id }}">View More</p>
+            <p>
+                <span class="profile-more" data-speaker-id="{{ id }}">View More</span>
+                {% if speaker.youtube_url %}
+                <a href="{{ speaker.youtube_url }}" class="profile-youtube">&#x25b6;</a>
+                {% endif %}
+            </p>
         </div>
         {% endfor %}
     </div>
