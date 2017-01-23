@@ -3,12 +3,12 @@
     {% set i = 0 %}
     {% for image in mosaic_images %}
         {% if image.type == "image" %}
-        <div class="image-cont col-md-4 m1">
+        <div class="image-cont col-md-4 m1" style="{{ image.styles }}">
             <span class="image" style="background: url('{{ image.src }}') center no-repeat; background-size:contain"></span>
         </div>
         {% endif %}
         {% if image.type == "text" %}
-        <div class="text-cont col-md-4 t1">
+        <div class="text-cont col-md-4 t1" style="{{ image.styles }}">
             <h2 class="title">{{ image.title }}</h2>
             <p class="copy">{{ image.content }}</p>
         </div>

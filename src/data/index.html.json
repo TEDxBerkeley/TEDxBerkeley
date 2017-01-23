@@ -12,6 +12,11 @@
     {
       "type": "image",
       "src": "/static/images/sponsors/guayaki.png"
+    },
+    {
+      "type": "image",
+      "src": "/static/images/sponsors/noosa.png",
+      "styles": "background-color:#FFF"
     }
   ]
 }

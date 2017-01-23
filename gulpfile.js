@@ -168,7 +168,7 @@ gulp.task('sass', function() {
 });
 
 // Compile Twig templates to HTML
-gulp.task('html', function() {
+gulp.task('html', ['global_json'], function() {
   return gulp.src([
         'src/html/**/*.html',
         '!src/html/includes/*.html',
