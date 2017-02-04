@@ -96,6 +96,18 @@
       "byline": "Visioneer. Robot Creator/Bioroboticist. Health Innovator.",
       "description": "Fuji Lai is passionate about revolutionizing the patient and human experience through augmenting human capabilities, improving healthcare access, and enhancing quality of care.  With her unique interdisciplinary background in biomedical engineering, robotics, human factors design and healthcare consulting plus 20+ years experience driving innovation in medical and surgical robotics, telemedicine, telepresence, mobile health, human-robot teams, human-machine interfaces, simulation and utilizing virtual reality to solve complex human challenges, Fuji brings a unique insight into how technology can transform the human experience.  She has served as medical robotics startup leadership member (InTouch Health), led the design and development of FDA-cleared Remote Presence robots for acute care telemedicine shipping 8 products in 5 years including the VITA (with iRobot)— the world’s first FDA-Class II-cleared robot with one-touch, \"go there\" autonomous navigation enabling new care models and 2014 Medical Design Excellence Award Finalist—and established virtual healthcare delivery networks now saving lives in 1500 hospitals in 22 countries from the ICU, OR, ED, clinic, to ambulance.  She also founded a medical human factors offering designing mission-critical medical devices and healthcare environments that enhance user experience, safety, performance capturing $4M business around the Hospital of the Future and was development team member on the first FDA-cleared surgical robot.  She is a 2016 Bold Visioneer with the XPRIZE Foundation to develop the next XPRIZE to address humanity’s grandest challenges, Singularity University Global Solutions Program 2015 Alumnus and Google Grant Recipient, MIT Solve Fellow, University of California Institute for Innovation Mentor/Advisor, and NSBRI/NASA Advisor to extend the reach of medical expertise to remote environments for space exploration.  Fuji is author of 30+ peer-reviewed publications, inventor on 15+ patents, been funded by NIH, DoD, NASA, and earned SM Biomedical Engineering (Harvard), MS Mechanical Engineering (UC Berkeley), BS Biomedical Engineering (Duke), BS Electrical Engineering (Duke).",
       "image_uri": "/static/images/speakerPics/Fuji Lai.jpg"
+    },
+    {
+      "name": "Brian Malow",
+      "byline": "Science Comedian",
+      "social_media": {
+        "twitter": "sciencecomedian",
+        "youtube": "sciencecomedian",
+        "facebook": "https://www.facebook.com/ScienceComedianBrianMalow/",
+        "website": "www.sciencecomedian.com"
+      },
+      "description": "Brian Malow is Earth's premier science comedian (self-proclaimed). In addition to performing and giving science communication talks for the NSF, AAAS, NASA, NIST, ACS, Apple, Dell, Microsoft and others, Brian Malow has produced science videos for Time Magazine and audio pieces for Neil deGrasse Tyson’s radio show. He has blogged for Scientific American and worked in science communications at the North Carolina Museum of Natural Sciences. He was named an Osher Science Communication Fellow at the California Academy of Sciences. Brian has co-hosted programs on The Weather Channel, appeared on The Late Late Show with Craig Ferguson and ScienceFriday with Ira Flatow, and he has been featured in the New York Times, the Washington Post, the San Francisco Chronicle, and Nature, Science, and Symmetry magazines",
+      "image_uri": "/static/images/speakerPics/Brian Malow.jpg"
     }
     ],
   "2016": [
