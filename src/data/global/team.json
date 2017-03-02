@@ -84,6 +84,12 @@
 			"byline": "Manager of Partnerships",
 			"description": "Saher Daredia is a freshman at UC Berkeley planning to study Molecular Cell Biology and Public Health. Aside from TEDxBerkeley, Saher explores her interest in health education and social justice through the Community Health committee of the Cal Undergraduate Public Health Coalition. Saher ultimately hopes to pursue a career in epidemiological research and help at-risk populations in developing countries. She enjoys camping, cuddling with her dog, and consuming copious amounts of coffee. When her nose is not buried in a book or container of hummus, you can find her at saher@tedxberkeley.org.",
 			"image_uri": "/static/images/teamPics/saher.jpg"
+		},
+		"chris": {
+			"name": "Chris Lew",
+			"byline": "Senior Team Consultant",
+			"description": "Chris Lew is a Senior Consultant to the TEDxBerkeley team who brings 4 years of experience as a previous Curator and Director of Operations & Logistics of the event. Chris is a biotech strategy consultant at DeciBio, a start-up in Santa Monica, CA. The unique multidisciplinary, entrepreneurial space of TEDx events sparked his interest in pursuing entrepreneurship at the intersection of biotechnology, health, and human-centered design.",
+			"image_uri": "/static/images/teamPics/nobody.jpg"
 		}
 	}
 }
