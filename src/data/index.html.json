@@ -22,6 +22,11 @@
       "type": "image",
       "src": "/static/images/sponsors/ginger.png",
       "styles": "background-color:#FFF"
+    },
+    {
+      "type": "image",
+      "src": "/static/images/sponsors/imperfect.jpg",
+      "styles": "background-color:#FFF"
     }
   ]
 }
