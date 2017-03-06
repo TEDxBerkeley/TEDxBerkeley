@@ -14,7 +14,8 @@ import shutil
 PREFIX = '../../static/images/speakerPics/'
 
 
-def convert(prefix: str, year: str, dest: str) -> None:
+def convert(prefix: str, year: str, dest: str,
+            performers=('Brian', 'Damien')) -> None:
     """Converted provided year in JSON.
 
     Specifically, extracts all data for given year. Then, collects three pieces
@@ -32,17 +33,19 @@ def convert(prefix: str, year: str, dest: str) -> None:
 
     if prefix == 'speaker':
         speakers_by_year = [speaker for speaker in speakers_by_year
-                            if speaker['byline'].lower() != 'performer']
+                            if speaker['byline'].lower() != 'performer'
+                            and not any(p in speaker['name'] for p in performers)]
     elif prefix == 'performer':
         speakers_by_year = [speaker for speaker in speakers_by_year
-                            if speaker['byline'].lower() == 'performer']
+                            if speaker['byline'].lower() == 'performer'
+                            or any(p in speaker['name'] for p in performers)]
     elif prefix == 'team':
         speakers_by_year = sorted(speakers_by_year.values(),
                                   key=lambda data: data['name'].split(' ')[0])
 
     names = [speaker['name'] for speaker in speakers_by_year]
     bylines = [speaker['byline'] for speaker in speakers_by_year]
-    descriptions = [speaker['description'].replace('<br/>', '') for speaker in speakers_by_year]
+    descriptions = [speaker['description'].replace('<br/>', '').replace('"', '\\"') for speaker in speakers_by_year]
     image_uris = [os.path.basename(speaker['image_uri'])
                   for speaker in speakers_by_year]
 
