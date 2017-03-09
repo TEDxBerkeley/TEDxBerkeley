@@ -27,6 +27,12 @@
       "type": "image",
       "src": "/static/images/sponsors/imperfect.jpg",
       "styles": "background-color:#FFF"
+    },
+    {
+      "type": "image",
+      "src": "/static/images/sponsors/spectrum.jpg",
+      "styles": "background-color:#FFF",
+      "href": "https://online-sales-marketing.com/"
     }
   ]
 }
