@@ -1,5 +1,23 @@
 $height: 25em;
 
+.mosaic.light {
+    background-color:#eee;
+
+    .text-cont {
+        background-color:transparent;
+
+        .title {
+            color:#333;
+        }
+    }
+}
+
+.mosaic.padded {
+    .image-cont {
+        padding:5em;
+    }
+}
+
 .mosaic {
     width:100%;
     background-color:#000;

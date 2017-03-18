@@ -5,33 +5,29 @@
       "src": "/static/images/sponsors/gts.png"
     },
     {
-      "type": "text",
-      "title": "Meet our Sponsors",
-      "content": "These are our very generous 2017 event sponsors, committed to ideas worth spreading."
-    },
-    {
       "type": "image",
       "src": "/static/images/sponsors/guayaki.png"
     },
     {
       "type": "image",
-      "src": "/static/images/sponsors/noosa.png",
-      "styles": "background-color:#FFF"
+      "src": "/static/images/sponsors/noosa.png"
     },
     {
       "type": "image",
-      "src": "/static/images/sponsors/ginger.png",
-      "styles": "background-color:#FFF"
+      "src": "/static/images/sponsors/ginger.png"
+    },
+    {
+      "type": "text",
+      "title": "Meet our Sponsors",
+      "content": "These are our very generous 2017 event sponsors, committed to ideas worth spreading. <a href='https://www.eventbrite.com/e/tedxberkeley-2017-constellate-tickets-29185395303?aff=es2'>Come to our event</a> to see what they have to offer: from drinks to snacks to the newest innovations."
     },
     {
       "type": "image",
-      "src": "/static/images/sponsors/imperfect.jpg",
-      "styles": "background-color:#FFF"
+      "src": "/static/images/sponsors/imperfect.png"
     },
     {
       "type": "image",
-      "src": "/static/images/sponsors/spectrum.jpg",
-      "styles": "background-color:#FFF",
+      "src": "/static/images/sponsors/spectrum.png",
       "href": "https://online-sales-marketing.com/"
     }
   ]
