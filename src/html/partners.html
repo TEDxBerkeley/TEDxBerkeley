@@ -6,4 +6,9 @@
 
 {% block body %}
 {% include "modules/dark_text_with_video_partners.html" %}
+
+<!-- mosaic images are set in data/global/partners.json -->
+{% set mosaic_class = 'light padded' %}
+{% set mosaic_images = partners.sponsors_mosaic %}
+{% include "modules/mosaic_images.html" %}
 {% endblock %}

@@ -22,7 +22,8 @@
 {% set dark_text_asterisk = false %}
 {% include "modules/dark_text_with_title_single.html" %}
 
-<!-- mosaic images are set in index.html.json -->
+<!-- mosaic images are set in data/global/partners.json -->
 {% set mosaic_class = 'light padded' %}
+{% set mosaic_images = partners.sponsors_mosaic %}
 {% include "modules/mosaic_images.html" %}
 {% endblock %}
