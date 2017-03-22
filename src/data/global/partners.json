@@ -52,6 +52,14 @@
       "type": "image",
       "src": "/static/images/sponsors/spectrum.png",
       "href": "https://online-sales-marketing.com/"
+    },
+    {
+      "type": "image",
+      "src": "/static/images/sponsors/positiveenergy.png"
+    },
+    {
+      "type": "image",
+      "src": "/static/images/sponsors/patagonia.png"
     }
   ]
 }
