@@ -15,7 +15,7 @@ PREFIX = '../../static/images/speakerPics/'
 
 
 def convert(prefix: str, year: str, dest: str,
-            performers=('Brian', 'Damien')) -> None:
+            performers=('Brian', 'Damien', 'TEDxBerkeley', 'Cal Wushu')) -> None:
     """Converted provided year in JSON.
 
     Specifically, extracts all data for given year. Then, collects three pieces
