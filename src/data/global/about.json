@@ -1,7 +1,7 @@
 {
   "whatistedxberkeley": {
     "title": "What is TEDxBerkeley?",
-    "copy": "On April 15, 2017 TEDxBerkeley is gathering world-leading thinkers, makers, and doers at UC Berkeley to discuss “Constellate”. The audience will be composed of a diverse mix of over 1500 students, professors, and thought leaders from Berkeley and beyond for a stimulating day of presentations, discussions, entertainment and art that will spark new ideas and opportunities for all."
+    "copy": "On February 17, 2018 TEDxBerkeley is gathering world-leading thinkers, makers, and doers at UC Berkeley to discuss “You are Here”. The audience will be composed of a diverse mix of over 1500 students, professors, and thought leaders from Berkeley and beyond for a stimulating day of presentations, discussions, entertainment and art that will spark new ideas and opportunities for all."
   },
   "abouttedx": {
     "title": "About TEDx, <span>x = independently organized event</span>",
@@ -13,8 +13,8 @@
   },
   "theme":
     {
-    "title": "TEDxBerkeley 2017: Constellate<span>*</span> – verb",
-    "copy": "\"To form or cause to form into a cluster or group; gather together\" Like a star, an idea can shine brightly on its own. It has the ability to impress upon its viewer a spectacular image. Picture, however, when individual ideas come together, creating a larger narrative. While that single idea seemed impressive from one angle, it's not until you step back that you realize its full potential. That same star is but a small twinkle buried within a galaxy that sets the entire sky alight. At TEDxBerkeley 2017, we will constellate thousands of unheard voices, uncovered perspectives, and unexpected stories. Each person brings to the event a complex history, and TEDxBerkeley aims to unite our speakers and audience members to share their stories and visionary outlooks with one another. Creating this larger narrative allows us to become more interconnected, and to constellate a fuller and more beautiful picture. By inviting others to shine their lights with us, we are forced to look at our own perspectives under a new light, and are better able to understand our place in this united nature."
+    "title": "TEDxBerkeley 2018: You are Here",
+    "copy": "Long version: When is the last time you looked at a map? As it turns out, the map you choose determines what you see. Various perspectives will show you: Alaska can cover Finland, Sweden, and Norway; and Africa is larger than China, India, and the contiguous United States combined. The lenses you pick are important, and with our 2018 TEDxBerkeley event, we hope to give you a sense of where we are. In fact, we want to pinpoint just where you are. On February, 17, 2018, we will be in Zellerbach Hall, Berkeley, California, but let’s consider a dimension other than physical space; you stand amid technological, scientific, cultural, and social advancement, each of them a function of time. Consider any pair to be our axes, and we now have a new map across history, events, and places. Each map gives rise to a new perspective, telling a different story, and we want to share a select few to ultimately build a better map of the world, beyond two dimensions. However, to see through each of these lenses, we’ll need your help. Join us in finding our place, pinpointing that marker and red dot: You are here, and so are we."
     }
   ,
   "getthemostout": [
@@ -74,7 +74,7 @@
     },
     {
       "title": "How do I nominate a speaker?",
-      "copy": "The form to nominate a speaker for TEDxBerkeley can be found by clicking here:"
+      "copy": "The form to nominate a speaker for TEDxBerkeley can be found by clicking here: "
     },
     {
       "title": "How long does it take for nominations to be processed?",
@@ -116,7 +116,7 @@
     },
     "when": {
       "title": "When",
-      "content": "Saturday, April 15, 2017 from 10:00AM on, with registration beginning at 8:30AM"
+      "content": "Saturday, February 17, 2018 from 10:00AM on, with registration beginning at 8:30AM"
     }
   }
 }

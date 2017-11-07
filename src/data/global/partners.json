@@ -14,7 +14,7 @@
   "benefitsofsponsorship": {
     "preface": "Sponsors receive a variety of benefits, from day-of tickets to recognition across our social media platforms and general media.",
     "benefits": [
-      "Admission to TEDxBerkeley, April 15th, 2017",
+      "Admission to TEDxBerkeley, February 17th, 2018",
       "Thank you in opening remarks",
       "Recognition in slide shows and programs",
       "Recognition on website",
@@ -23,6 +23,11 @@
     ]
   },
   "sponsors_mosaic": [
+    {
+      "type": "text",
+      "title": "Meet our Sponsors",
+      "content": "Our 2018 event sponsors, committed to ideas worth spreading, have yet to be announced. Come to our event to see what they have to offer: from drinks to snacks to the newest innovations."
+    },
     {
       "type": "image",
       "src": "/static/images/sponsors/gts.png"

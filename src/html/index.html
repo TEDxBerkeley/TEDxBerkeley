@@ -10,7 +10,7 @@
 {% set dark_text_title = 'What is TEDxBerkeley really<span>*</span> about?' %}
 {% set dark_text_copy = about.whatistedxberkeley.copy %}
 {% set dark_text_href = '/speakers' %}
-{% set dark_text_link = 'See 2017 Speakers <span class="bracket">&RightAngleBracket;</span>' %}
+{% set dark_text_link = 'See 2018 Speakers <span class="bracket">&RightAngleBracket;</span>' %}
 {% set dark_text_asterisk = true %}
 {% include "modules/dark_text_with_title_single.html" %}
 
@@ -21,9 +21,4 @@
 {% include "modules/mosaic.html" %}
 {% set dark_text_asterisk = false %}
 {% include "modules/dark_text_with_title_single.html" %}
-
-<!-- mosaic images are set in data/global/partners.json -->
-{% set mosaic_class = 'light padded' %}
-{% set mosaic_images = partners.sponsors_mosaic %}
-{% include "modules/mosaic_images.html" %}
 {% endblock %}

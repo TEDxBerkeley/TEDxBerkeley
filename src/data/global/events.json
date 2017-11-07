@@ -1,5 +1,11 @@
 {
-  "current": "2017",
+  "current": "2018",
+  "2018": {
+    "date": "February 17, 2018",
+    "theme": "you are here",
+    "place": "Zellerbach Hall",
+    "eventbrite_url": "#"
+  },
   "2017": {
     "date": "April 15, 2017",
     "theme": "constellate",

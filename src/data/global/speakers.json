@@ -1,8 +1,12 @@
 {
   "links": [
     {
-      "text": "2017",
+      "text": "2018",
       "href": "/speakers"
+    },
+    {
+      "text": "2017",
+      "href": "/speakers/2017"
     },
     {
       "text": "2016",
@@ -36,6 +40,50 @@
   "nomination_form": {
     "url": "https://goo.gl/2xFrKz"
   },
+  "2018": [
+    {
+      "name": "Christopher Emdin",
+      "byline": "",
+      "description": "",
+      "image_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+    },
+    {
+      "name": "David Lang",
+      "byline": "",
+      "description": "",
+      "image_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+    },
+    {
+      "name": "Jennifer French",
+      "byline": "",
+      "description": "",
+      "image_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+    },
+    {
+      "name": "Justin Barad",
+      "byline": "",
+      "description": "",
+      "image_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+    },
+    {
+      "name": "Chandni Kazi",
+      "byline": "",
+      "description": "",
+      "image_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+    },
+    {
+      "name": "Khalid Kadir",
+      "byline": "",
+      "description": "",
+      "image_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+    },
+    {
+      "name": "Dean Ornish",
+      "byline": "",
+      "description": "",
+      "image_uri": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+    }
+  ],
   "2017": [
     {
       "name": "Minh Dang",
