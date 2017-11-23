@@ -1,0 +1,477 @@
+* {
+    float:left;
+    font-family:'Seravek';
+}
+
+p > * {
+    float:none;
+}
+
+header,section,html,body,footer,section .background,section .content {
+    width:100%;
+    position:relative;
+}
+
+section .background {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+html .right {
+    float:right;
+}
+
+.logo img {
+    width:3em;
+    height:3em;
+    margin:2em;
+}
+
+header {
+    position:absolute;
+    top:0;
+}
+
+.button {
+    background: rgb(81, 155, 252);
+    color:#FFF;
+    font-weight:500;
+    padding:1.5em 4em;
+    border-radius:3em;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+}
+
+.button.red {
+    background-color:rgb(252, 96, 78);
+}
+
+.button.blue {
+    background-color:rgb(75, 152, 252);
+}
+
+.button.black {
+    background-color:#000;
+}
+
+.button.small {
+    padding:1.25em 3em;
+    border-radius:2.5em;
+}
+
+b.red {
+    color:rgb(252, 96, 78);
+}
+
+b.blue {
+    color: rgb(75, 152, 252);
+}
+
+.burn-left.flipped {
+    transform: rotate(180deg);
+}
+
+/**
+ * Opening
+ */
+
+.opening .center {
+    padding-top:10em;
+}
+
+.opening .center img {
+    width:20em;
+}
+
+.opening .center .button {
+    clear:both;
+    margin-top:-1em;
+    display:inline-block;
+}
+
+.opening .p1 {
+    margin-top:5em;
+}
+
+.opening .p1b {
+    margin-top:3em;
+}
+
+.burn-right {
+    position:absolute;
+    right:0;
+    height:40em;
+    top:3em;
+}
+
+.opening .text p,.opening .text span {
+    width:100%;
+    text-align:right;
+}
+
+.opening .text span {
+    font-size:1.25em;
+    color:#999;
+    text-transform:uppercase;
+    font-weight:500;
+}
+
+.opening .text p {
+    font-size:2.5em;
+}
+
+.opening .text {
+    margin-top:15em;
+}
+
+/**
+ * Text with Number
+ */
+
+.text-with-number {
+}
+
+.text-with-number h2 {
+    margin-bottom:-0.35em;
+    text-indent:-0.5em;
+}
+
+h2.no {
+    font-weight:500;
+    color:rgb(252, 96, 78);
+    font-size:10em;
+    clear:both;
+}
+
+.text-with-number .text {
+    color:#666;
+    line-height:200%;
+    font-size:1.15em;
+}
+
+.text-with-number .button {
+    margin-top:2em;
+}
+
+.text-with-number.right p {
+    text-align:right;
+}
+
+.text-with-number.right h2 {
+    color: rgb(75, 152, 252)
+}
+
+.text-with-number.right .burn-left {
+    margin-top:-10em;
+}
+
+/**
+ * Cutout
+ */
+
+.cutout .brian {
+    margin-top:-30em;
+}
+
+.cutout .brian + .text {
+    margin-right:-3em;
+}
+
+.cutout h2 {
+    text-transform:uppercase;
+    margin:0 0 0.5em 0;
+}
+
+.cutout.blue h2 {
+    color: rgb(75, 152, 252);
+}
+
+.cutout.red h2 {
+    color: rgb(252, 96, 78);
+}
+
+.cutout .text {
+    text-align:right;
+    margin-top:2em;
+}
+
+.cutout .text p,.cutout .text .button,.cutout .text h2 {
+    float:right;
+}
+
+.cutout .text h2 {
+    font-size:2.5em;
+}
+
+.cutout .text p {
+    font-size:1.15em;
+    font-weight:500;
+    text-transform:uppercase;
+    color:#999;
+}
+
+.cutout .no {
+    position:absolute;
+    right:2.15em;
+    top:-1.15em;
+    z-index:-1;
+}
+
+.cutout .background .circles {
+    margin-top:3em;
+}
+
+.cutout.damien .no {
+    margin-top:-1em;
+    margin-right:-0.15em;
+}
+
+.cutout .damien {
+    margin-top:-40em;
+}
+
+.cutout .damien + .text {
+    margin-top:5em;
+}
+
+/**
+ * Text with Sideways
+ */
+
+.text-with-sideways {
+    margin-top:5em;
+}
+
+.burn-left {
+    position:absolute;
+    left:0;
+    top:-10em;
+    height:50em;
+}
+
+.text-with-sideways .no {
+    float:right;
+    margin-bottom:-0.35em;
+    color: rgb(252, 241, 108);
+}
+
+.text-with-sideways .text p {
+    color:#666;
+    line-height:200%;
+    font-size:1.15em;
+}
+
+.text-with-sideways .button {
+    margin-top:1.5em;
+}
+
+.sideways {
+    transform: rotate(-90deg);
+    text-transform:uppercase;
+    color: rgb(252, 241, 108);
+    font-size:7em;
+    margin-top:2em;
+    margin-left:-2.5em;
+    margin-right:-1em;
+}
+
+/**
+ * Text with headline
+ */
+
+.text-with-headline {
+    padding-top:20em;
+}
+
+.text-with-headline h2 {
+    color: rgb(252, 96, 78);
+    text-transform:uppercase;
+    font-size:4em;
+}
+
+.text-with-headline p {
+    color:#666;
+    line-height:200%;
+    font-size:1.15em;
+}
+
+.p7 {
+    margin-top:-10em;
+    margin-left:5em;
+}
+
+/**
+ * Footer
+ */
+
+footer {
+    margin-top:5em;
+}
+
+footer .logo-container {
+    text-align:center;
+}
+
+footer .logo + .button {
+    float:none;
+    display:inline-block;
+    padding:1em 2em;
+    margin-top:1em;
+}
+
+footer h2 {
+    text-transform:uppercase;
+    color:#333;
+    font-size:1.15em;
+    letter-spacing:0.1em;
+}
+
+li {
+    list-style:none;
+}
+
+header li a {
+    font-weight:500;
+    color:#666;
+    text-transform:uppercase;
+}
+
+header {
+    z-index:100;
+}
+
+header ul {
+    float:right;
+    margin-right:2em;
+}
+
+header li {
+    margin:3em 2em;
+}
+
+footer li {
+    width:100%;
+}
+
+li a {
+    padding:0.25em 0;
+    font-size:1.15em;
+    color:#999;
+}
+
+footer ul {
+    width:100%;
+    padding:0.75em 0;
+}
+
+footer p {
+    color:#999;
+    width:100%;
+    text-align:center;
+    margin-top:2em;
+    padding:1em;
+}
+
+/* This stylesheet generated by Transfonter (https://transfonter.org) on November 23, 2017 5:14 AM */
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-BoldItalic.eot');
+    src: url('Seravek-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-BoldItalic.woff') format('woff'),
+        url('Seravek-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-MediumItalic.eot');
+    src: url('Seravek-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-MediumItalic.woff') format('woff'),
+        url('Seravek-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-Italic.eot');
+    src: url('Seravek-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-Italic.woff') format('woff'),
+        url('Seravek-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-Medium.eot');
+    src: url('Seravek-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-Medium.woff') format('woff'),
+        url('Seravek-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-LightItalic.eot');
+    src: url('Seravek-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-LightItalic.woff') format('woff'),
+        url('Seravek-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-ExtraLight.eot');
+    src: url('Seravek-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-ExtraLight.woff') format('woff'),
+        url('Seravek-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-Bold.eot');
+    src: url('Seravek-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-Bold.woff') format('woff'),
+        url('Seravek-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-ExtraLightItalic.eot');
+    src: url('Seravek-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-ExtraLightItalic.woff') format('woff'),
+        url('Seravek-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek.eot');
+    src: url('Seravek.eot?#iefix') format('embedded-opentype'),
+        url('Seravek.woff') format('woff'),
+        url('Seravek.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-Light.eot');
+    src: url('Seravek-Light.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-Light.woff') format('woff'),
+        url('Seravek-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
