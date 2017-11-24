@@ -1,3 +1,7 @@
+/**
+ * Website designed by Alvin Wan (alvinwan.com)
+ */
+
 * {
     float: left;
     font-family: 'Seravek';
@@ -218,12 +222,14 @@ h2.no {
 }
 .cutout .text h2 {
     font-size: 2.5em;
+    width:100%;
 }
 .cutout .text p {
     font-size: 1.15em;
     font-weight: 500;
     text-transform: uppercase;
     color: #999;
+    width:100%;
 }
 .cutout .no {
     position: absolute;
@@ -294,8 +300,17 @@ h2.no {
  * Text with headline
  */
 
-.text-with-headline {
+.text-with-sideways + .text-with-headline {
     padding-top: 20em;
+}
+.text-with-headline {
+    padding-top:10em;
+}
+.text-with-headline .p4 {
+    margin-top:35em;
+}
+.text-with-headline .p5 {
+    margin-top:10em;
 }
 .text-with-headline h2 {
     color: rgb(252, 96, 78);
@@ -307,9 +322,32 @@ h2.no {
     line-height: 200%;
     font-size: 1.15em;
 }
+.text-with-headline .suja {
+    margin-top:5em;
+}
+.text-with-headline.suja .text {
+    text-align:center;
+}
+.text-with-headline.suja .text .button {
+    float:none;
+}
+.text-with-headline.right h2 {
+    text-align:right;
+    width:100%;
+}
+.benefits li {
+    color:#999;
+    font-size:2.5em;
+    float:right;
+    width:100%;
+    text-align:right;
+}
 .p7 {
     margin-top: -10em;
     margin-left: 5em;
+}
+.p3 {
+    margin-top:10em;
 }
 
 /**
@@ -560,8 +598,10 @@ li a:hover {
  */
 
 .numbers .wrap {
-    padding-top:5em;
+    padding:5em 0;
+    margin-bottom:8em;
     border-top:1em solid #eee;
+    border-bottom:1em solid #eee;
 }
 
 .numbers .cell h2 {
@@ -593,6 +633,11 @@ li a:hover {
 
 .anna + .basic-text {
     margin-top:-6em;
+}
+
+.people + .basic-text .wrap {
+    border-top:1em solid #eee;
+    padding-top:5em;
 }
 
 .basic-text h2 {
